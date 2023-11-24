@@ -1,0 +1,47 @@
+.geral{
+    background-color: rgb(1, 67, 129);
+    
+
+    .container{
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+
+        .footerEsq{
+            color: rgb(151, 205, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footerMei{
+            color: rgb(151, 205, 255);
+            font-size: 22px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footerDir{
+            display: flex;
+            flex-direction: column;
+
+            h1{
+                color: rgb(79, 170, 255);
+            }
+
+            a{
+                color: rgb(151, 205, 255);
+                text-decoration: none;
+                transition: 0.1s;
+
+                &:hover{
+                    color: rgb(39, 151, 255);
+                    text-decoration: underline;
+                    transition: 0.1s;
+                }
+            }
+        }
+    }
+}

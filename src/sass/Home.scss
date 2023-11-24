@@ -1,0 +1,217 @@
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+    @media screen and (max-width:425px) {
+        margin: 0;
+    }
+
+    .esq{
+        
+
+        @media screen and (max-width:425px) {
+
+            height: 100%;
+        }
+
+        h2{
+            margin-bottom: 3%;
+            font-weight: bold;
+
+            @media screen and (max-width:425px) {
+                font-size: 15px;
+            }
+        }
+        
+        header{
+            img{
+                width: 100%;
+
+                @media screen and (max-width:425px) {
+                    width: 100%;
+                }
+            }
+        }
+
+        section{
+            display: flex;
+            margin-top: 3%;
+
+            h1{
+                font-size: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+
+                @media screen and (max-width:425px) {
+                    font-size: 15px;
+                }
+            }
+
+            p{
+                margin-left: 3%;
+                border: 1px solid rgb(180, 180, 180);
+                border-radius: 5px;
+                padding: 25px;
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+
+                @media screen and (max-width:425px) {
+                    font-size: 10px;
+                    padding: 10px;
+                }
+            }
+        }
+
+        button{
+            display: flex;
+            float: right;
+            padding: 5px;
+            margin-top: 5%;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(57, 128, 196);
+            color: white;
+            transition: 0.4s;
+
+            &:hover{
+                padding: 10px;
+                border: 1px solid rgb(63, 87, 109);
+                background-color: rgb(0, 86, 167);
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .dir{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(180, 180, 180);
+        padding: 25px;
+        width: 110%;
+        margin-left: 3%;
+        margin-top: 7.7%;
+        border-radius: 5px;
+        
+
+        @media screen and (max-width:425px) {
+            font-size: 15px;
+            padding: 10px;
+            height: 100%;
+        }
+        
+        .textBox{
+            
+            
+            h1{
+                @media screen and (max-width:425px) {
+                    font-size: 20px;
+                }
+            }
+
+            .text{
+               margin-top: 5%; 
+               margin-bottom: 5%;
+
+               @media screen and (max-width:425px) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+.container2{
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+
+    @media screen and (max-width:425px) {
+        margin: 0;
+    }
+
+    h2{
+        margin-bottom: 3%;
+        font-weight: bold;
+    }
+
+    .vant{
+        display: flex;
+
+        .card1{
+            border: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            img{
+                width: 160px;
+                height: 180px;
+                
+            }
+
+            .text1{
+                h5{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-left: 5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    margin-left: 5%;
+                }
+            }
+        }
+
+        .card2{
+            border: 0px;
+
+            img{
+                width: 160px;
+                height: 180px;
+            }
+
+            .text2{
+                h5{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-left: 5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    margin-left: 5%;
+                }
+            }
+        }
+
+        .card3{
+            border: 0px;
+
+            img{
+                width: 160px;
+                height: 180px;
+            }
+
+            .text3{
+                h5{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-left: 5%;
+                }
+    
+                p{
+                    font-size: 14px;
+                    margin-left: 5%;
+                }
+            }
+        }
+    }
+}
